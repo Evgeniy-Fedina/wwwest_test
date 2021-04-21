@@ -57,3 +57,8 @@ function drawChart() {
         var chart = new google.visualization.LineChart(document.getElementById($element.id));
         chart.draw(data, options);
     }
+
+	$('.filter-row__btn').click(function(){ 
+		$('.custom-nav__item').toggleClass('custom-nav__item--point') 
+	});
+
