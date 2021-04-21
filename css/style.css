@@ -78,6 +78,9 @@ html{
     top: 50%;
     transform: translateY(-50%);  
 }
+.custom-nav__item--point.custom-nav__item.active::after{
+    right: -15px;
+}
 
 .custom-nav__items:hover,
 .custom-nav__item:hover{
