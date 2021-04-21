@@ -1,9 +1,10 @@
-$( window ).resize(function() {
-    console.log('resize');
-    drawChart();
-});
+
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
+    $( window ).resize(function() {
+        console.log('resize');
+        drawChart();
+    });
     function drawChart() {
       var data = new google.visualization.DataTable();
         data.addColumn('number', 'X');
