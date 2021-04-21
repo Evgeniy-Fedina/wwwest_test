@@ -69,7 +69,7 @@ html{
     content: '';
     width: 18px;
     height: 36px;
-    background-image: url(images/list-point.svg);
+    background-image: url(../images/list-point.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ html{
     content: '';
     width: 15px;
     height: 15px;
-    background-image: url(images/setting-img.svg);
+    background-image: url(../images/setting-img.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ html{
     content: '';
     width: 15px;
     height: 15px;
-    background-image: url(/images/arrow-log-out.svg);
+    background-image: url(../images/arrow-log-out.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -292,7 +292,7 @@ html{
 }
 
 .custom-radio__input:checked + .custom-radio__box{
-    background-image: url(images/radio-on.svg);
+    background-image: url(../images/radio-on.svg);
 }
 
 
@@ -328,11 +328,11 @@ html{
     width: 18px;
     height: 18px;
     margin-left: -28px;
-    background-image: url(images/check-off.svg);
+    background-image: url(../images/check-off.svg);
 }
 
 .custom-check__input:checked + .custom-check__box{
-    background-image: url(images/check-on.svg);
+    background-image: url(../images/check-on.svg);
 }
 
 
