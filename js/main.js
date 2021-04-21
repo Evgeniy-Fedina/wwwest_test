@@ -20,9 +20,7 @@ $('#list-tab a').on('click', function(){
     console.log($element.id);
     drawChart();
 })
-/*function set_chart_id(p_id){
-    return p_id;
-}*/
+
 function drawChart() {
       var data = new google.visualization.DataTable();
         data.addColumn('number', 'X');
